@@ -16,4 +16,6 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-git clone https://github.com/nixonli/ddns-scripts_dnspod.git package/ddns-scripts_dnspod
+#git clone https://github.com/nixonli/ddns-scripts_dnspod.git package/ddns-scripts_dnspod
+git clone https://github.com/unresolved/openwrt-l2tp-dnspod-ddns.git package/ddns-scripts_dnspod
+
