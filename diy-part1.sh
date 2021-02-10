@@ -17,8 +17,8 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/diy/luci-theme-argon
 svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-dnspod package/diy/ddns-scripts-dnspod
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-ramfree package/diy/luci-app-ramfree
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-arpbind package/diy/luci-app-arpbind
+#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-ramfree package/diy/luci-app-ramfree
+#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-arpbind package/diy/luci-app-arpbind
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-autoreboot package/diy/luci-app-autoreboot
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-flowoffload package/diy/luci-app-flowoffload
+#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-flowoffload package/diy/luci-app-flowoffload
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-zerotier package/diy/luci-app-zerotier
