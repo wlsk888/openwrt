@@ -30,31 +30,21 @@
 #sed -i 's/PassWall/科学上网/g' package/diy/openwrt_passwall/luci-app-passwall/po/zh_Hans/passwall.po
 #sed -i 's/zh-cn/zh_Hans/g' package/diy/openwrt_passwall/luci-app-passwall/Makefile
 
-#主题
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/diy/luci-theme-argon
-
+svn co https://github.com/281677160/openwrt-package/trunk/luci-app-argon-config package/diy/luci-app-argon-config
 #DDNS
 svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-aliyun package/diy/ddns-scripts-aliyun
 svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-dnspod package/diy/ddns-scripts-dnspod
-
 #清内存
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-ramfree package/diy/luci-app-ramfree
-
 #定时重启
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-autoreboot package/diy/luci-app-autoreboot
-
 #zerotier
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-zerotier package/diy/luci-app-zerotier
-sed -i 's/msgid ""/msgid "VPN"/g' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
-sed -i 's/msgstr ""/msgstr "虚拟网络"/g' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
-sed -i 's/msgid "Interface Info"/msgid "Base Setting"/g' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
-sed -i 's/msgstr "接口信息"/msgstr "基础设置"/g' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
-sed -i '$a \\' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
-sed -i '$a msgid "Interface Info"' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
-sed -i '$a msgstr "接口信息"' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
-
 #mt-drivers
 svn co https://github.com/garypang13/openwrt-packages/trunk/mt-drivers package/diy/mt-drivers
+#CPU控制
+svn co https://github.com/281677160/openwrt-package/trunk/luci-app-cpulimit package/diy/luci-app-cpulimit
 
 #B70
 #svn co https://github.com/garypang13/openwrt-packages/trunk/automount package/diy/automount
