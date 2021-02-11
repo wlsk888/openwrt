@@ -22,9 +22,9 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-ramfree pac
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-autoreboot package/diy/luci-app-autoreboot
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-zerotier package/diy/luci-app-zerotier
 svn co https://github.com/garypang13/openwrt-packages/trunk/mt-drivers package/diy/mt-drivers
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-vssr package/diy/luci-app-vssr
-svn co https://github.com/garypang13/openwrt-packages/trunk/shadowsocksr-libev package/diy/shadowsocksr-libev
-rm -rf feeds/kenzo/luci-app-vssr
-rm -rf feeds/small/shadowsocksr-libev
-rm -rf package/feeds/kenzo/luci-app-vssr
-rm -rf package/feeds/small/shadowsocksr-libev
+#svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-vssr package/diy/luci-app-vssr
+#svn co https://github.com/garypang13/openwrt-packages/trunk/shadowsocksr-libev package/diy/shadowsocksr-libev
+#rm -rf feeds/kenzo/luci-app-vssr
+#rm -rf feeds/small/shadowsocksr-libev
+#rm -rf package/feeds/kenzo/luci-app-vssr
+#rm -rf package/feeds/small/shadowsocksr-libev
