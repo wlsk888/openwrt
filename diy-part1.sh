@@ -15,6 +15,12 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+#svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-vssr package/diy/luci-app-vssr
+#svn co https://github.com/garypang13/openwrt-packages/trunk/shadowsocksr-libev package/diy/shadowsocksr-libev
+#rm -rf feeds/kenzo/luci-app-vssr
+#rm -rf feeds/small/shadowsocksr-libev
+#rm -rf package/feeds/kenzo/luci-app-vssr
+#rm -rf package/feeds/small/shadowsocksr-libev
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/diy/luci-theme-argon
 svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-aliyun package/diy/ddns-scripts-aliyun
 svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-dnspod package/diy/ddns-scripts-dnspod
@@ -22,9 +28,6 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-ramfree pac
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-autoreboot package/diy/luci-app-autoreboot
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-zerotier package/diy/luci-app-zerotier
 svn co https://github.com/garypang13/openwrt-packages/trunk/mt-drivers package/diy/mt-drivers
-#svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-vssr package/diy/luci-app-vssr
-#svn co https://github.com/garypang13/openwrt-packages/trunk/shadowsocksr-libev package/diy/shadowsocksr-libev
-#rm -rf feeds/kenzo/luci-app-vssr
-#rm -rf feeds/small/shadowsocksr-libev
-#rm -rf package/feeds/kenzo/luci-app-vssr
-#rm -rf package/feeds/small/shadowsocksr-libev
+#B70
+svn co https://github.com/garypang13/openwrt-packages/trunk/automount package/diy/automount
+svn co https://github.com/garypang13/openwrt-packages/trunk/autosamba package/diy/autosamba
