@@ -22,7 +22,6 @@
 #rm -rf package/feeds/kenzo/luci-app-vssr
 #rm -rf package/feeds/small/shadowsocksr-libev
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/diy/luci-theme-argon
-svn co https://github.com/281677160/openwrt-package/trunk/luci-app-argon-config package/diy/luci-app-argon-config
 svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-aliyun package/diy/ddns-scripts-aliyun
 svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-dnspod package/diy/ddns-scripts-dnspod
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-ramfree package/diy/luci-app-ramfree
