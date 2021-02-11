@@ -23,6 +23,7 @@
 #rm -rf package/feeds/small/shadowsocksr-libev
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/diy/luci-theme-argon
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-argon-config package/diy/luci-app-argon-config
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-vssr package/diy/luci-app-vssr
 svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-aliyun package/diy/ddns-scripts-aliyun
 svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-dnspod package/diy/ddns-scripts-dnspod
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-ramfree package/diy/luci-app-ramfree
