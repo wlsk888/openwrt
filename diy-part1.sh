@@ -28,6 +28,7 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-ramfree pac
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-autoreboot package/diy/luci-app-autoreboot
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-zerotier package/diy/luci-app-zerotier
 svn co https://github.com/garypang13/openwrt-packages/trunk/mt-drivers package/diy/mt-drivers
+
 #B70
-svn co https://github.com/garypang13/openwrt-packages/trunk/automount package/diy/automount
-svn co https://github.com/garypang13/openwrt-packages/trunk/autosamba package/diy/autosamba
+#svn co https://github.com/garypang13/openwrt-packages/trunk/automount package/diy/automount
+#svn co https://github.com/garypang13/openwrt-packages/trunk/autosamba package/diy/autosamba
