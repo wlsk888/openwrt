@@ -39,7 +39,7 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-zerotier pa
 #mt驱动
 svn co https://github.com/garypang13/openwrt-packages/trunk/mt-drivers package/diy/mt-drivers
 #以下为测试app
-#svn co https://github.com/garypang13/openwrt-packages/trunk/default-settings package/diy/default-settings
+svn co https://github.com/garypang13/openwrt-packages/trunk/default-settings package/diy/default-settings
 #cpu控制
 #svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpufreq package/diy/luci-app-cpufreq
 #svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpulimit package/diy/luci-app-cpulimit
