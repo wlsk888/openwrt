@@ -41,9 +41,9 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/mt-drivers package/d
 #以下为测试app
 svn co https://github.com/garypang13/openwrt-packages/trunk/default-settings package/diy/default-settings
 #cpu控制
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpufreq package/diy/luci-app-cpufreq
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpulimit package/diy/luci-app-cpulimit
-svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit package/diy/cpulimit
+#svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpufreq package/diy/luci-app-cpufreq
+#svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpulimit package/diy/luci-app-cpulimit
+#svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit package/diy/cpulimit
 #turboacc
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-turboacc package/diy/luci-app-turboacc
 svn co https://github.com/garypang13/openwrt-packages/trunk/dnsforwarder package/diy/dnsforwarder
