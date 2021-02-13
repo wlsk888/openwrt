@@ -49,5 +49,3 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-turboacc pa
 svn co https://github.com/garypang13/openwrt-packages/trunk/dnsforwarder package/diy/dnsforwarder
 svn co https://github.com/garypang13/openwrt-packages/trunk/fast-classifier package/diy/fast-classifier
 svn co https://github.com/garypang13/openwrt-packages/trunk/shortcut-fe package/diy/shortcut-fe
-#bypass
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-bypass package/diy/luci-app-bypass
