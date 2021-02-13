@@ -21,13 +21,33 @@
 #rm -rf feeds/small/shadowsocksr-libev
 #rm -rf package/feeds/kenzo/luci-app-vssr
 #rm -rf package/feeds/small/shadowsocksr-libev
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/diy/luci-theme-argon
-#svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-argon-config package/diy/luci-app-argon-config
-svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-aliyun package/diy/ddns-scripts-aliyun
-svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-dnspod package/diy/ddns-scripts-dnspod
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-ramfree package/diy/luci-app-ramfree
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-autoreboot package/diy/luci-app-autoreboot
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-zerotier package/diy/luci-app-zerotier
-svn co https://github.com/garypang13/openwrt-packages/trunk/mt-drivers package/diy/mt-drivers
+#自动挂载
 #svn co https://github.com/garypang13/openwrt-packages/trunk/automount package/diy/automount
 #svn co https://github.com/garypang13/openwrt-packages/trunk/autosamba package/diy/autosamba
+#主题
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/diy/luci-theme-argon
+#svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-argon-config package/diy/luci-app-argon-config
+#DDNS
+svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-aliyun package/diy/ddns-scripts-aliyun
+svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-dnspod package/diy/ddns-scripts-dnspod
+#释放内存
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-ramfree package/diy/luci-app-ramfree
+#定时重启
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-autoreboot package/diy/luci-app-autoreboot
+#虚拟网络
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-zerotier package/diy/luci-app-zerotier
+#mt驱动
+svn co https://github.com/garypang13/openwrt-packages/trunk/mt-drivers package/diy/mt-drivers
+#以下为测试app
+svn co https://github.com/garypang13/openwrt-packages/trunk/default-settings package/diy/default-settings
+#cpu控制
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpufreq package/diy/luci-app-cpufreq
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpulimit package/diy/luci-app-cpulimit
+svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit package/diy/cpulimit
+#turboacc
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-turboacc package/diy/luci-app-turboacc
+svn co https://github.com/garypang13/openwrt-packages/trunk/dnsforwarder package/diy/dnsforwarder
+svn co https://github.com/garypang13/openwrt-packages/trunk/fast-classifier package/diy/fast-classifier
+svn co https://github.com/garypang13/openwrt-packages/trunk/shortcut-fe package/diy/shortcut-fe
+#bypass
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-bypass package/diy/luci-app-bypass
