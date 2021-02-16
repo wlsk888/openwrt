@@ -20,6 +20,12 @@ sed -i 's/msgstr "接口信息"/msgstr "基本设置"/g' package/diy/luci-app-ze
 sed -i '$a \\' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
 sed -i '$a msgid "Interface Info"' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
 sed -i '$a msgstr "接口信息"' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
+sed -i '$a \\' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
+sed -i '$a msgid "NOT RUNNING"' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
+sed -i '$a msgstr "未运行"' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
+sed -i '$a \\' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
+sed -i '$a msgid "RUNNING"' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
+sed -i '$a msgstr "运行中"' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
 #创建指向
 ln -s feeds/kenzo/luci-app-vssr/po/zh-cn feeds/kenzo/luci-app-vssr/po/zh_Hans
 ln -s feeds/kenzo/luci-app-passwall/po/zh-cn feeds/kenzo/luci-app-passwall/po/zh_Hans
