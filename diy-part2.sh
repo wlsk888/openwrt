@@ -33,6 +33,8 @@ sed -i '$a msgstr "使用"' feeds/kenzo/luci-app-ssr-plus/po/zh-cn/ssr-plus.po
 sed -i '$a \\' feeds/kenzo/luci-app-ssr-plus/po/zh-cn/ssr-plus.po
 sed -i '$a msgid "Apply"' feeds/kenzo/luci-app-ssr-plus/po/zh-cn/ssr-plus.po
 sed -i '$a msgstr "使用"' feeds/kenzo/luci-app-ssr-plus/po/zh-cn/ssr-plus.po
+#Socat汉化
+sed -i 's/msgstr "Socat"/msgstr "端口转发"/g' package/diy/luci-app-socat/po/zh_Hans/socat.po
 #创建指向
 ln -s feeds/kenzo/luci-app-vssr/po/zh-cn feeds/kenzo/luci-app-vssr/po/zh_Hans
 ln -s feeds/kenzo/luci-app-passwall/po/zh-cn feeds/kenzo/luci-app-passwall/po/zh_Hans
@@ -43,7 +45,3 @@ ln -s feeds/kenzo/luci-app-passwall/po/zh-cn feeds/kenzo/luci-app-passwall/po/zh
 #find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-server/shadowsocksr-libev-server/g' {}
 #测试
 #svn co https://github.com/garypang13/openwrt-packages/trunk/default-settings package/diy/default-settings
-svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit-ng package/diy/cpulimit-ng
-svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit package/diy/cpulimit
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpufreq package/diy/luci-app-cpufreq
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpulimit package/diy/luci-app-cpulimit
