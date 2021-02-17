@@ -40,8 +40,3 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-zerotier pa
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-accesscontrol package/diy/luci-app-accesscontrol
 #ipv6 to ipv4
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-socat package/diy/luci-app-socat
-#turboacc
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-turboacc package/diy/luci-app-turboacc
-svn co https://github.com/garypang13/openwrt-packages/trunk/fast-classifier package/diy/fast-classifier
-svn co https://github.com/garypang13/openwrt-packages/trunk/dnsforwarder package/diy/dnsforwarder
-svn co https://github.com/garypang13/openwrt-packages/trunk/shortcut-fe package/diy/shortcut-fe
