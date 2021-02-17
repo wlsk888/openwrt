@@ -27,16 +27,4 @@
 #主题
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/diy/luci-theme-argon
 #svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-argon-config package/diy/luci-app-argon-config
-#DDNS
-svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-aliyun package/diy/ddns-scripts-aliyun
-svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-dnspod package/diy/ddns-scripts-dnspod
-#释放内存
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-ramfree package/diy/luci-app-ramfree
-#定时重启
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-autoreboot package/diy/luci-app-autoreboot
-#虚拟网络
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-zerotier package/diy/luci-app-zerotier
-#上网时间控制
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-accesscontrol package/diy/luci-app-accesscontrol
-#ipv6 to ipv4
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-socat package/diy/luci-app-socat
+git clone https://github.com/test-open/diy-package package/diy
