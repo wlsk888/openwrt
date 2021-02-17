@@ -36,3 +36,7 @@ ln -s feeds/kenzo/luci-app-passwall/po/zh-cn feeds/kenzo/luci-app-passwall/po/zh
 #find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-server/shadowsocksr-libev-server/g' {}
 #测试
 #svn co https://github.com/garypang13/openwrt-packages/trunk/default-settings package/diy/default-settings
+svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit-ng package/diy/cpulimit-ng
+svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit package/diy/cpulimit
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpufreq package/diy/luci-app-cpufreq
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpulimit package/diy/luci-app-cpulimit
