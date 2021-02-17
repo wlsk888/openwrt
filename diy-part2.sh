@@ -35,6 +35,15 @@ sed -i '$a msgid "Apply"' feeds/kenzo/luci-app-ssr-plus/po/zh-cn/ssr-plus.po
 sed -i '$a msgstr "使用"' feeds/kenzo/luci-app-ssr-plus/po/zh-cn/ssr-plus.po
 #Socat汉化
 sed -i 's/msgstr "Socat"/msgstr "端口转发"/g' package/diy/luci-app-socat/po/zh_Hans/socat.po
+sed -i '$a \\' package/diy/luci-app-socat/po/zh_Hans/socat.po
+sed -i '$a msgid "VPN"' package/diy/luci-app-socat/po/zh_Hans/socat.po
+sed -i '$a msgstr "虚拟网络"' package/diy/luci-app-socat/po/zh_Hans/socat.po
+sed -i '$a \\' package/diy/luci-app-socat/po/zh_Hans/socat.po
+sed -i '$a msgid "APPLY"' package/diy/luci-app-socat/po/zh_Hans/socat.po
+sed -i '$a msgstr "使用"' package/diy/luci-app-socat/po/zh_Hans/socat.po
+sed -i '$a \\' package/diy/luci-app-socat/po/zh_Hans/socat.po
+sed -i '$a msgid "Apply"' package/diy/luci-app-socat/po/zh_Hans/socat.po
+sed -i '$a msgstr "使用"' package/diy/luci-app-socat/po/zh_Hans/socat.po
 #创建指向
 ln -s feeds/kenzo/luci-app-vssr/po/zh-cn feeds/kenzo/luci-app-vssr/po/zh_Hans
 ln -s feeds/kenzo/luci-app-passwall/po/zh-cn feeds/kenzo/luci-app-passwall/po/zh_Hans
