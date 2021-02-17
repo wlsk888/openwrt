@@ -36,5 +36,5 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-ramfree pac
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-autoreboot package/diy/luci-app-autoreboot
 #虚拟网络
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-zerotier package/diy/luci-app-zerotier
-#mt驱动
-#svn co https://github.com/garypang13/openwrt-packages/trunk/mt-drivers package/diy/mt-drivers
+#上网时间控制
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-accesscontrol package/diy/luci-app-accesscontrol
