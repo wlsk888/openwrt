@@ -34,3 +34,4 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/ramfree package/diy/
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-socat package/diy/luci-app-socat
 svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-dnspod package/diy/ddns-scripts-dnspod
 svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-aliyun package/diy/ddns-scripts-aliyun
+svn co https://github.com/garypang13/openwrt-packages/trunk/default-settings package/diy/default-settings
