@@ -30,8 +30,7 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git package/diy/luci-the
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-zerotier package/diy/luci-app-zerotier
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-accesscontrol package/diy/luci-app-accesscontrol
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-socat package/diy/luci-app-socat
-svn co https://github.com/garypang13/openwrt-packages/trunk/ramfree package/diy/ramfree
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-socat package/diy/luci-app-socat
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-ramfree package/diy/luci-app-ramfree
 #svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-dnspod package/diy/ddns-scripts-dnspod
 svn co https://github.com/test-open/diy-package/trunk/ddns-scripts-dnspod package/diy/ddns-scripts-dnspod
 svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-aliyun package/diy/ddns-scripts-aliyun
