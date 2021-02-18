@@ -40,15 +40,6 @@ sed -i 's/msgstr "上网时间控制"/msgstr "网络控制"/g' package/diy/luci-
 sed -i '$a \\' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
 sed -i '$a msgid "VPN"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
 sed -i '$a msgstr "虚拟网络"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
-sed -i '$a \\' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
-sed -i '$a msgid "reuseaddr"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
-sed -i '$a msgstr "绑定地址"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
-sed -i '$a \\' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
-sed -i '$a msgid "allow"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
-sed -i '$a msgstr "允许"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
-sed -i '$a \\' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
-sed -i '$a msgid "deny"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
-sed -i '$a msgstr "拒绝"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
 #创建指向
 ln -s feeds/kenzo/luci-app-vssr/po/zh-cn feeds/kenzo/luci-app-vssr/po/zh_Hans
 ln -s feeds/kenzo/luci-app-passwall/po/zh-cn feeds/kenzo/luci-app-passwall/po/zh_Hans
