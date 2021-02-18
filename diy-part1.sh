@@ -27,4 +27,4 @@
 #主题
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/diy/luci-theme-argon
 #svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-argon-config package/diy/luci-app-argon-config
-git clone https://github.com/test-open/diy-package package/diy
+svn co https://github.com/test-open/diy-package package/diy
