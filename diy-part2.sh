@@ -26,14 +26,8 @@ sed -i '$a msgstr "未运行"' package/diy/luci-app-zerotier/po/zh_Hans/zerotier
 sed -i '$a \\' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
 sed -i '$a msgid "RUNNING"' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
 sed -i '$a msgstr "运行中"' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
-sed -i '$a \\' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
-sed -i '$a msgid "reuseaddr"' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
-sed -i '$a msgstr "绑定地址"' package/diy/luci-app-zerotier/po/zh_Hans/zerotier.po
 #Socat汉化
 sed -i 's/msgstr "Socat"/msgstr "端口转发"/g' package/diy/luci-app-socat/po/zh_Hans/socat.po
-sed -i '$a \\' package/diy/luci-app-socat/po/zh_Hans/socat.po
-#sed -i '$a msgid "VPN"' package/diy/luci-app-socat/po/zh_Hans/socat.po
-#sed -i '$a msgstr "虚拟网络"' package/diy/luci-app-socat/po/zh_Hans/socat.po
 sed -i '$a \\' package/diy/luci-app-socat/po/zh_Hans/socat.po
 sed -i '$a msgid "APPLY"' package/diy/luci-app-socat/po/zh_Hans/socat.po
 sed -i '$a msgstr "启用"' package/diy/luci-app-socat/po/zh_Hans/socat.po
@@ -46,6 +40,15 @@ sed -i 's/msgstr "上网时间控制"/msgstr "网络控制"/g' package/diy/luci-
 sed -i '$a \\' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
 sed -i '$a msgid "VPN"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
 sed -i '$a msgstr "虚拟网络"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
+sed -i '$a \\' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
+sed -i '$a msgid "reuseaddr"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
+sed -i '$a msgstr "绑定地址"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
+sed -i '$a \\' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
+sed -i '$a msgid "allow"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
+sed -i '$a msgstr "允许"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
+sed -i '$a \\' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
+sed -i '$a msgid "deny"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
+sed -i '$a msgstr "拒绝"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
 #创建指向
 ln -s feeds/kenzo/luci-app-vssr/po/zh-cn feeds/kenzo/luci-app-vssr/po/zh_Hans
 ln -s feeds/kenzo/luci-app-passwall/po/zh-cn feeds/kenzo/luci-app-passwall/po/zh_Hans
