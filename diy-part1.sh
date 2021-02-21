@@ -33,4 +33,4 @@
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-socat package/lean/luci-app-socat
 #svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-ramfree package/diy/luci-app-ramfree
 #git clone https://github.com/small-5/ddns-scripts-dnspod package/diy/ddns-scripts-dnspod
-svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-aliyun package/diy/ddns-scripts-aliyun
+#svn co https://github.com/garypang13/openwrt-packages/trunk/ddns-scripts-aliyun package/diy/ddns-scripts-aliyun
